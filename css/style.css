@@ -1,0 +1,354 @@
+/*fonts*/
+
+@import "fonts.css";
+
+
+/*Specification*/
+
+
+*:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: "Muller", "Arial", sans-serif;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.02em;
+	font-size: 24px;
+	color: #fff;
+	transition: all 0.5 ease;
+	font-weight: 100;
+	line-height: 1.5em;
+	background-color: #111;
+}
+
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 1575px;
+}
+
+.div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.2em;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+	color: #fff;
+	font-family: "AlphaHeadline", "Arial", sans-serif;
+}
+
+h2{
+	font-size: 30px;
+	color: #fff;
+	font-family: "AlphaHeadline", "Arial", sans-serif;
+}
+
+h3{
+	font-size: 30px;
+	color: #fff;
+	font-family: "AlphaHeadline", "Arial", sans-serif;
+}
+
+
+
+/*h4{
+	font-size: 21px;
+	font-weight: 600;
+}
+
+h5{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 800;
+}*/
+
+a, a:hover, a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn{
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.5s ease;
+ 	background-image: linear-gradient( 0deg, rgb(6,159,6) 0%, rgb(6,221,6) 0%);
+ 	box-shadow: inset 0px 0px 21px 0px rgba(255, 255, 255, 0.004);
+  	width: 306px;
+  	height: 65px;
+  	z-index: 607;
+  	font-size: 30px;
+  	font-family: "AlphaHeadline";
+  	color: #fff;
+  	line-height: 1.2;
+  	position: relative;
+  	opacity: 1;
+}
+
+.outline {
+  border-width: 1px;
+  border-color: rgb(6, 221, 6);
+  border-style: solid;
+  box-shadow: 0px 0px 8.37px 0.63px rgba(6, 220, 6, 0.8);
+  width: 304px;
+  height: 65px;
+  z-index: 606;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+/*Header*/
+
+
+
+.head__tel {
+  border-width: 0.5px;
+  border-color: rgb(6, 221, 6);
+  border-style: solid;
+  box-shadow: 0px 0px /*8.37*/9px /*0.63*/3px rgba(6, 220, 6, 0.5);
+  width: 220px;
+  height: 60px;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "AlphaHeadline", "Arial", sans-serif;
+}
+
+.head__arrrow{
+	font-size: 10px;
+	padding-top: 1px;
+}
+
+header{
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	max-width: 1920px;
+	height: 2000px;
+}
+
+.head{
+	padding-top: 50px;
+	align-items: center
+}
+
+.social{
+	width: 180px;
+}
+
+.social__link{
+	padding-top: 10px;
+}
+
+.social__link:hover{
+	background-color: #06dd06;
+}
+
+.logo{
+/*	padding-top: 55px;*/
+}
+
+.logo__link{
+
+}
+
+.logo__img{
+
+}
+
+.logo__text{
+
+}
+
+.head__tel_desktop{
+	display: block;
+}
+.head__tel_mobile{
+	display: none;
+}
+
+.offer{
+	
+}
+
+.offer__content{
+ 	margin-top: 175px;
+ 	width: 500px;
+ 	position: relative;
+}
+
+.offer__title{
+	text-align: left;
+ 	width: 500px;
+}
+.offer__text{
+	text-align: left;
+	width: 735px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.btn__arrow{
+	font-size: 25px;
+}
+
+.offer__product{
+	width: 680px;
+	position: absolute;
+			left: -395px;
+		top: 550px;
+
+
+}
+.offer__imgs{
+	position: absolute;
+	right: -100px;
+
+}
+
+.offer__img{
+	height: 1017px;
+	left: 10px;
+	top: 10px;
+}
+
+@media(min-width: 1920px){
+
+
+	/*Header*/
+
+
+	.offer__imgs{
+		position: relative;
+		left: 150px;
+	}
+}
+
+@media(max-width: 1600px){
+	.container{
+		width: 95%;
+	}
+}
+
+@media(max-width: 1265px){
+
+
+	/*Header*/
+
+
+	.offer__imgs{
+			top: 600px;
+	}
+}
+
+@media(max-width: 1100px){
+	
+
+	/*Header*/
+
+
+	.offer__product{
+		display: none;
+	}
+}
+
+@media(max-width: 794px){
+
+
+	/*Header*/
+
+	header{
+		background-image: url(../img/header-bg-mobile.png);
+	}
+	.head__tel{
+  	background-color: rgb(6, 221, 6);
+  	box-shadow: 0px 0px 8.37px 3px rgba(6, 220, 6, 0.5);
+  	width: 60px;
+  	height: 60px;
+	}
+
+	.head__tel_desktop{
+		display: none;
+	}
+
+	.head__tel_mobile{
+		display: block;
+	}
+
+	.offer__content{
+		width: 450px;
+	}
+
+	.offer__text{
+		width: 100%;
+	}
+
+	.offer__imgs{
+		top: 700px;
+		right: auto;
+		left: auto;
+	}
+
+	.offer__img{
+		width: 480px;
+		height: 677px;
+	}
+}
+
+@media(max-width: 480px){
+	.container{
+
+	}
+}
+.test{
+	width: 100px;
+	max-height: 250px;
+	background-color: #555;
+	overflow: hidden;
+}
+.text{
+	padding: 10px;
+}
