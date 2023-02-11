@@ -68,19 +68,6 @@ h3{
 	font-family: "AlphaHeadline", "Arial", sans-serif;
 }
 
-
-
-/*h4{
-	font-size: 21px;
-	font-weight: 600;
-}
-
-h5{
-	font-size: 15px;
-	color: #fff;
-	font-weight: 800;
-}*/
-
 a, a:hover, a:active{
 	text-decoration: none;
 	color: inherit;
@@ -187,31 +174,12 @@ header{
 	background-color: #06dd06;
 }
 
-.logo{
-/*	padding-top: 55px;*/
-}
-
-.logo__link{
-
-}
-
-.logo__img{
-
-}
-
-.logo__text{
-
-}
-
 .head__tel_desktop{
 	display: block;
 }
+
 .head__tel_mobile{
 	display: none;
-}
-
-.offer{
-	
 }
 
 .offer__content{
@@ -238,11 +206,12 @@ header{
 .offer__product{
 	width: 680px;
 	position: absolute;
-			left: -395px;
-		top: 550px;
+	left: -395px;
+	top: 550px;
 
 
 }
+
 .offer__imgs{
 	position: absolute;
 	right: -100px;
@@ -304,10 +273,10 @@ header{
 		background-image: url(../img/header-bg-mobile.png);
 	}
 	.head__tel{
-  	background-color: rgb(6, 221, 6);
-  	box-shadow: 0px 0px 8.37px 3px rgba(6, 220, 6, 0.5);
-  	width: 60px;
-  	height: 60px;
+  		background-color: rgb(6, 221, 6);
+  		box-shadow: 0px 0px 8.37px 3px rgba(6, 220, 6, 0.5);
+  		width: 60px;
+  		height: 60px;
 	}
 
 	.head__tel_desktop{
@@ -340,9 +309,9 @@ header{
 
 @media(max-width: 480px){
 	.container{
-
 	}
 }
+
 .test{
 	width: 100px;
 	max-height: 250px;
